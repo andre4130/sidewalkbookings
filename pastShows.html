@@ -13,29 +13,20 @@
   <title>Sidewalk Bookings</title>
 
 </head>
-<body>
+<body id="pastShows">
 
   <!-- beginning of the navbar -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="z-index:5">
     <a class="navbar-brand" href="index.html">
       <img src="images/logo.png" width="auto" height="60px" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSidewalk" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse mainNav" id="navbarSidewalk">
       <ul class="navbar-nav mr-auto mainNav">
         <li class="nav-item mr-3">
           <a class="nav-link" href="index.html">Artists<span class="sr-only">(current)</span></a>
-          <!-- <a class="nav-link dropdown-toggle" href="index.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artists</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown03">
-          <a class="dropdown-item" href="artists.html">Etran de l'Air</a>
-          <a class="dropdown-item" href="artists.html">Los Siquicos Litoraleños</a>
-          <a class="dropdown-item" href="artists.html">Insólito Universo</a>
-          <a class="dropdown-item" href="umberto.html">Umberto</a>
-          <a class="dropdown-item" href="theSpaceLady.html">The Space Lady</a>
-        </div> -->
       </li>
       <li class="nav-item mr-3">
         <a class="nav-link" href="currentShows.html">Current Shows</a>
@@ -50,43 +41,41 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-md-0 form-outline-primary">
-    <input class="form-control" type="text" placeholder="Search">
-  </form> -->
-</div>
-</nav>
-<!-- end of navbar -->
-
-<header>
-  <!-- new container -->
-</header>
-<div class="container-fluid">
-  <div class="row inline-flex">
-    <div class="col-1">
-      <a href="pastShows.html#2020"><h4>2020</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2019"><h4>2019</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2018"><h4>2018</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2017"><h4>2017</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2016"><h4>2016</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2014"><h4>2014</h4></a>
-    </div>
-    <div class="col-1">
-      <a href="pastShows.html#2013"><h4>2013</h4></a>
-    </div>
   </div>
+</nav>
+    <nav class="navbar navbar-expand-lg navbar-light years fixed-top bg-white" style="z-index:3">
+      <div class="container-fluid">
+        <div class="row inline-flex">
+          <div class="pr-3 pl-4">
+            <a href="pastShows.html#2020"><h4>2020</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2019"><h4>2019</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2018"><h4>2018</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2017"><h4>2017</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2016"><h4>2016</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2014"><h4>2014</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2013"><h4>2013</h4></a>
+          </div>
+        </div>
+      </div>
+  </nav>
 
-</div>
-<hr>
+<!-- <header>
+
+
+</header> -->
+<a class="btn bg-light mb-3" onclick="topFunction()" id="myBtn" title="Go to top">Back to   Top</a>
 <div class="container-fluid pastShows">
   <div class="col-md-12 col-sm-12" id="2020" style="padding-left:80px;margin-right:80px;">
     <h1>2020</h1>
@@ -94,7 +83,6 @@
       <h2 class="artist ml-2" href="spacelady.html">The Space Lady</h2>
     </div>
     <div class="col-12 ml-5">
-      <h3><u>US</u></h3>
       <ul>
         <li>08.01 Portland - Doug Fir</li>
         <li>09.01 Olympia - The Hobbit Hole</li>
@@ -354,7 +342,7 @@
   </ul>
 </div>
 <div class="col-12 ml-3">
-  <h2 class="artist ml-2" href="">TSEMBLA</h2>
+  <h2 class="artist ml-2" href="">Tsembla</h2>
 </div>
 <div class="col-12 ml-5">
   <ul>
@@ -406,7 +394,7 @@
   <div class="col-md-12 col-sm-12" id="2014" style="padding-left:80px;margin-right:80px;">
     <h1>2014</h1>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">DANIEL BACHMAN</h2>
+      <h2 class="artist ml-2" href="">Daniel Bachman</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -418,7 +406,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">ENSEMBLE ECONOMIQUE</h2>
+      <h2 class="artist ml-2" href="">Ensemble Economique</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -435,7 +423,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">FORMER SELVES + LACE BOWS</h2>
+      <h2 class="artist ml-2" href="">Former Selves + Lace Bows</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -447,7 +435,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">LUCRECIA DALT</h2>
+      <h2 class="artist ml-2" href="">Lucrecia Dalt</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -457,7 +445,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">ROLAND TINGS</h2>
+      <h2 class="artist ml-2" href="">Roland Tings</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -468,7 +456,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">UMBERTO</h2>
+      <h2 class="artist ml-2" href="">Umberto</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -480,7 +468,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">WANDA GROUP + SUMBU DUNIA</h2>
+      <h2 class="artist ml-2" href="">WANDA GROUP + Sumbu Dunia</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -496,7 +484,7 @@
   <div class="col-md-12 col-sm-12" id="2013" style="padding-left:80px;margin-right:80px;">
     <h1>2013</h1>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">ENSEMBLE ECONOMIQUE</h2>
+      <h2 class="artist ml-2" href="">Ensemble Economique</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -508,7 +496,7 @@
     </div>
     <hr>
     <div class="col-12 ml-3">
-      <h2 class="artist ml-2" href="">UMBERTO</h2>
+      <h2 class="artist ml-2" href="">Umberto</h2>
     </div>
     <div class="col-12 ml-5">
       <ul>
@@ -521,50 +509,32 @@
       </ul>
     </div>
   </div>
-  <!-- <div class="col-md-12 col-sm-12 " style="padding-left:80px;margin-right:80px;">
-    <h1>2012</h1>
-    <hr>
-  </div>
-  <div class="col-md-12 col-sm-12 " style="padding-left:80px;margin-right:80px;">
-    <h1>2011</h1>
-    <hr>
-  </div>
-  <div class="col-md-12 col-sm-12 "style="margin-left:80px;margin-right:80px;">
-    <h1>2010</h1>
-    <hr>
-  </div> -->
 </div>
-<div class="container-fluid">
-  <hr>
-  Booking agency based in Barcelona / Contact: <a href="mailto:info@sidewalkbookings.com">info@sidewalkbookings.com</a>
-</div>
-
-<!-- main text here -->
-
 <footer>
-  <!-- footer here -->
+  <div class="container-fluid">
+    <hr>
+    Booking agency based in Barcelona / Contact: <a href="mailto:info@sidewalkbookings.com">info@sidewalkbookings.com</a>
+  </div>
 </footer>
-<script>
-function scrollTo(to, duration) {
-    if (document.body.scrollTop == to) return;
-    var diff = to - document.body.scrollTop;
-    var scrollStep = Math.PI / (duration / 10);
-    var count = 0, currPos;
-    start = element.scrollTop;
-    scrollInterval = setInterval(function(){
-        if (document.body.scrollTop != to) {
-            count = count + 1;
-            currPos = start + diff * (0.5 - 0.5 * Math.cos(count * scrollStep));
-            document.body.scrollTop = currPos;
-        }
-        else { clearInterval(scrollInterval); }
-    },10);
+
+<script type="text/javascript">
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
 
-function test(elID)
-{
-    var dest = document.getElementById(elID);
-    scrollTo(dest.offsetTop, 500);
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 </script>
 

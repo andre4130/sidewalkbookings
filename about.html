@@ -17,7 +17,7 @@
 
 <!-- beginning of the navbar -->
 
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
   <a class="navbar-brand" href="index.html">
     <img src="images/logo.png" width="auto" height="60px" alt="">
   </a>
@@ -27,7 +27,7 @@
 
   <div class="collapse navbar-collapse mainNav" id="navbarSidewalk">
     <ul class="navbar-nav mr-auto mainNav">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Artists<span class="sr-only">(current)</span></a>
         <!-- <a class="nav-link dropdown-toggle" href="index.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artists</a>
         <div class="dropdown-menu" aria-labelledby="dropdown03">
@@ -45,7 +45,7 @@
         <a class="nav-link" href="pastShows.html">Past Shows</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="about.html">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
@@ -57,53 +57,56 @@
 <!-- end of navbar -->
 
 <header>
-  <div class="container-fluid" style="height:400px;">
-    <div id="carousel-main" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="3000">
-          <img src="images/etran.jpg" class="d-block h-auto" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:black;"><a href="etranDeLair.html">Etran de l'Air</a></h5>
-            <p style="color:black;">Etran description</p>
+
+  <div class="container-fluid" style="height:400px;width: auto;">
+      <div id="carousel-main" class="carousel slide carousel-fade" data-ride="carousel" style="text-align: -webkit-center;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="3500">
+            <img src="images/bannerEtran.png" class="d-block h-auto" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:white;"><a href="etranDeLair.html">Etran de l'Air</a></h3>
+            </div>
+          </div>
+          <div class="carousel-item align justify-content-center" data-interval="3500">
+            <img src="images/bannerInsolito.png" class="d-block h-auto" alt="Insólito UniVerso">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:white;"><a href="insolitoUniverso.html">Insólito UniVerso</a></h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <img src="images/bannerSiquicos.png" class="d-block h-auto" alt="Los Siquicos Litoraleños">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:white;"><a href="losSiquicosLitoraleños.html">Los Siquicos Litoraleños</a></h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <img src="images/bannerSpace.png" class="d-block h-auto" alt="The Space Lady">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:white;"><a href="theSpaceLady.html">The Space Lady</a></h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <img src="images/bannerUmberto.png" class="d-block h-auto" alt="Umberto">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:white;"><a href="umberto.html">Umberto</a></h3>
+            </div>
           </div>
         </div>
-        <div class="carousel-item align justify-content-center" data-interval="3000">
-          <img src="images/insolito.jpg" class="d-block h-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:black;">Insolito Universo</h5>
-            <p></p>
-          </div>
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="images/siquicos.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="images/space.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="images/umberto.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:white;">Umberto</h5>
-            <p style="color:white;">description</p>
-          </div>
-        </div>
+        <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-  </div>
-<!-- new container -->
 </header>
 
 <div class="container-fluid ">
   <hr>
-Hi! We are Sidewalk Bookings. Started in 2010 as a promoter in Barcelona. Now a booking agency based in Rotterdam. Booking all Europe!
+  Booking agency based in Barcelona / Contact: <a href="mailto:info@sidewalkbookings.com">info@sidewalkbookings.com</a>
 </div>
 <!-- main text here -->
 
