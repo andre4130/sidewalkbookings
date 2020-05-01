@@ -10,6 +10,13 @@ scroll-behavior: smooth;
     padding-top: 0px;
   }
 }
+
+ @media(max-width:1128px){
+   .artistPage{
+     max-width:498px;
+ }}
+
+
 body#pastShows{
 padding-top: 80px;
 }
