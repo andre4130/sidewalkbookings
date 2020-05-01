@@ -25,19 +25,19 @@
     </button>
     <div class="collapse navbar-collapse mainNav" id="navbarSidewalk">
       <ul class="navbar-nav mr-auto mainNav">
-        <li class="nav-item mr-3">
+        <li class="nav-item mr-4">
           <a class="nav-link" href="index.html">Artists<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4">
         <a class="nav-link" href="currentShows.html">Current Shows</a>
       </li>
-      <li class="nav-item mr-3 active">
+      <li class="nav-item mr-4 active">
         <a class="nav-link" href="pastShows.html">Past Shows</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4">
         <a class="nav-link" href="about.html">About</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4">
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row inline-flex">
           <div class="pr-3 pl-4">
-            <a href="pastShows.html#2020"><h4>2020</h4></a>
+            <a href="#" onclick="topFunction()"><h4>2020</h4></a>
           </div>
           <div class="pr-3 pl-3">
             <a href="pastShows.html#2019"><h4>2019</h4></a>
@@ -60,6 +60,9 @@
           </div>
           <div class="pr-3 pl-3">
             <a href="pastShows.html#2016"><h4>2016</h4></a>
+          </div>
+          <div class="pr-3 pl-3">
+            <a href="pastShows.html#2015"><h4>2015</h4></a>
           </div>
           <div class="pr-3 pl-3">
             <a href="pastShows.html#2014"><h4>2014</h4></a>
@@ -87,7 +90,7 @@
         <li>08.01 Portland - Doug Fir</li>
         <li>09.01 Olympia - The Hobbit Hole</li>
         <li>10.01 Tacoma - Janku Land</li>
-        <li>12.01 Orcas Islands - Oddfellows Hall</li>
+        <li id="2019">12.01 Orcas Islands - Oddfellows Hall</li>
         <li>13.01 San Juan Islands - Alchemy Art Center</li>
         <li>14.01 Seattle - Substation</li>
         <li>16.01 Vancouver - Fox Cabaret</li>
@@ -95,7 +98,7 @@
     </div>
     <hr>
   </div>
-  <div class="col-md-12 col-sm-12" id="2019" style="padding-left:80px;margin-right:80px;">
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2019</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="spacelady.html">The Space Lady</h2>
@@ -114,7 +117,7 @@
         <li>17.07 Seattle, Southgate Roller Rink</li>
         <li>20.07 Tacoma, Janku Land</li>
         <li>21.07 Portland, Doug Fir</li>
-        <li>26.07 New York, Brooklyn Bazaar</li>
+        <li id="2018">26.07 New York, Brooklyn Bazaar</li>
       </ul>
     </div>
 <div class="col-12 ml-5">
@@ -125,7 +128,7 @@
     </div>
     <hr>
   </div>
-  <div class="col-md-12 col-sm-12" id="2018" style="padding-left:80px;margin-right:80px;">
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2018</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="spacelady.html">The Space Lady</h2>
@@ -173,7 +176,7 @@
       	<li>10.11. NO Oslo- BLÅ</li>
       	<li>11.11. SE Uddevalla - Uddevallakassetten</li>
       	<li>13.11. SE Stockholm - Slaktkyrkan</li>
-      	<li>14.11. SE Halmstad - Roots/Koloni</li>
+      	<li id="2017">14.11. SE Halmstad - Roots/Koloni</li>
       	<li>16.11. SE Lund - Skissernas museum</li>
       	<li>17.11. SE Vadstena - Kulturförgreningen Ugglan</li>
       	<li>18.11. SE Gnesta - Vår Lokal</li>
@@ -181,7 +184,8 @@
     </div>
     <hr>
   </div>
-  <div class="col-md-12 col-sm-12" id="2017" style="padding-left:80px;margin-right:80px;">
+
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2017</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="">Jung An Tagen</h2>
@@ -249,16 +253,15 @@
 	<li>16.06. UK Newcastle - The Northern Charter</li>
 	<li>17.06. UK Wakefield - The Hepworth</li>
 	<li>17.06. UK Manchester - Soup Kitchen</li>
-	<li>18.06. UK Birmingham - Supersonic Festival</li>
+	<li id="2016">18.06. UK Birmingham - Supersonic Festival</li>
 	<li>19.06. UK Cardiff - Transport Club</li>
 	<li>20.06. UK London - Cafe Oto</li>
 	<li>23.06. NL Down The Rabbit Hole Festival</li>
 </ul>
     </div>
     <hr>
-  </div>
-
-  <div class="col-md-12 col-sm-12" id="2016" style="padding-left:80px;margin-right:80px;">
+    </div>
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2016</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="">Geneva Jacuzzi</h2>
@@ -377,21 +380,102 @@
   	<li>04.06. CH Basel - HeK</li>
   	<li>05.06. UK Brighton - The Hope</li>
   	<li>06.06. UK Bristol - Cube Cinema</li>
-  	<li>07.06. UK Nottingam - Spanky Van Dykes</li>
+  	<li id="2015">07.06. UK Nottingam - Spanky Van Dykes</li>
   	<li>08.06. UK London - Corsica Studios</li>
   	<li>09.06. UK Glasgow - The Glad Cafe</li>
   	<li>11.06. FR Paris - Monsegnieur</li>
   </ul>
 </div>
     <hr>
+</div>
+
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
+    <h1>2015</h1>
+    <div class="col-12 ml-3">
+      <h2 class="artist ml-2" href="">Ensemble Economique</h2>
+    </div>
+    <div class="col-12 ml-5">
+      <ul>
+      	<li>04.09. PL Warsaw - Chmury</li>
+      	<li>05.09. PL Krakow - Club RE</li>
+      	<li>08.09. CZ Brno - PRAHA</li>
+      	<li>10.09. AT Wien - Rhiz</li>
+      	<li>12.09. CH Düdingen - Bad Bonn</li>
+      	<li>13.09. IT Rome - Fanfulla 5/a Circolo</li>
+      	<li>16.09. NL Tillburg - Incubate</li>
+      	<li>21.09. BE Aalst - Network</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="col-12 ml-3">
+      <h2 class="artist ml-2" href="">The Space Lady</h2>
+    </div>
+    <div class="col-12 ml-5">
+      <ul>
+      	<li>12.08 SE Stockholm, Trädgården</li>
+      	<li>14.08 FI Helsinki, Flow Festival</li>
+      	<li>21.08 NO Moss, Møllebyen Litteraturfestival</li>
+      	<li>22.08 NO Oslo, Blå</li>
+      	<li>13.10. UK Bristol - Polish Club</li>
+      	<li>14.10. UK London - Old Bath House</li>
+      	<li>16.10. UK Nottingham - Chameleon</li>
+      	<li>17.10. UK Newscastle - Mining Institute</li>
+      	<li>18.10. UK Bradford - Playhouse</li>
+      	<li>20.10. UK Manchester - Islington Mill</li>
+      	<li>21.10. UK Edinburgh - Sneaky Petes</li>
+      	<li>23.10. UK Glasgow - CCA</li>
+      	<li>24.10. UK Brighton - West Hill Hall</li>
+      	<li>25.10. UK Hastings - Observer Building</li>
+      	<li>27.10. BE Liege - Espace 302.</li>
+      	<li>30.10. ES San Sebastian - Dabadaba</li>
+      	<li>31.10. ES Oviedo - Lata de Zinc</li>
+      	<li>04.11. PT Lisbon - ZDB</li>
+      	<li>05.11. ES Madrid - Siroco</li>
+      	<li>06.11. ES Valencia - Madame Mim</li>
+      	<li>07.11 ES Barcelona - Freedonia</li>
+      	<li>10.11 BE Brussels - Bozar Night</li>
+      	<li>11.11. NL Rotterdam - WORM</li>
+      	<li>12.11. NL Amsterdam - Klup X</li>
+      	<li>13.11. NL Nijmegen - Extrapool</li>
+      	<li>14.11. DE Hannover - Sturmglocke</li>
+      	<li>15.11. DE Berlin - Marie Antoinette</li>
+      	<li>16.11. CZ Hradec Králové - Galerie u Přívozu</li>
+      	<li>17.11. AT Vienna - Rhiz</li>
+      	<li>20.11. CH Bern - Saint Ghetto Festival</li>
+      	<li>22.11. NL Utrecht - Le Guess Who</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="col-12 ml-3">
+      <h2 class="artist ml-2" href="">Umberto & Antoni Maiovvi</h2>
+    </div>
+    <div class="col-12 ml-5">
+      <ul>
+      	<li>21.05. ES Madrid - Siroco</li>
+      	<li>22.05. ES San Sebastián - Dabadaba</li>
+      	<li>23.05. ES Zaragoza - Las Armas (Mala Praxis)</li>
+      	<li>24.05. ES Valencia - Magazine</li>
+      	<li>25.05. ES Barcelona - Primavera Sound</li>
+      	<li>26.05. FR Lyon - Sonic</li>
+      	<li>27.05. BE Brussels - Le Bunker</li>
+      	<li>28.05. BE Antwerp - Het Bos</li>
+      	<li>29.05. DK Copenhagen - Drone Bar</li>
+      	<li>30.05. LTU Vilnius - Kablys</li>
+      	<li>02.06. DE Hannover - Oberdeck</li>
+      	<li>03.06. DE Trier - Exhaus</li>
+      	<li>04.06. CH Basel - HeK</li>
+      	<li>05.06. UK Brighton - The Hope</li>
+      	<li>06.06. UK Bristol - Cube Cinema</li>
+      	<li  id="2014">07.06. UK Nottingam - Spanky Van Dykes</li>
+      	<li>08.06. UK London - Corsica Studios</li>
+      	<li>09.06. UK Glasgow - The Glad Cafe</li>
+      	<li>11.06. FR Paris - Monsegnieur</li>
+      </ul>
+    </div>
+    <hr>
   </div>
 
-  <!-- <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
-    <h1>2015</h1>
-    <hr>
-  </div> -->
-
-  <div class="col-md-12 col-sm-12" id="2014" style="padding-left:80px;margin-right:80px;">
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2014</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="">Daniel Bachman</h2>
@@ -473,7 +557,7 @@
     <div class="col-12 ml-5">
       <ul>
       	<li>06.05. PT Porto - 8mm </li>
-      	<li>07.05. PT Coimbra - Osga</li>
+      	<li  id="2013">07.05. PT Coimbra - Osga</li>
       	<li>08.05. PT Lisboa - Lounge</li>
       	<li>09.05. ES Madrid - Moroder</li>
       	<li>10.05. ES Barcelona - Miscelanea</li>
@@ -481,7 +565,7 @@
     </div>
     <hr>
   </div>
-  <div class="col-md-12 col-sm-12" id="2013" style="padding-left:80px;margin-right:80px;">
+  <div class="col-md-12 col-sm-12" style="padding-left:80px;margin-right:80px;">
     <h1>2013</h1>
     <div class="col-12 ml-3">
       <h2 class="artist ml-2" href="">Ensemble Economique</h2>

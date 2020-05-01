@@ -2,6 +2,8 @@ html, body{
 font-family: 'Roboto Mono', monospace;
 text-align:center;
 padding-top: 55px;
+font-size: 1.1rem;
+scroll-behavior: smooth;
 }
 @media (max-width: 979px) {
   body {
@@ -105,7 +107,8 @@ body {
 
 .pastShows{
   text-align: left;
-}
+};
+
 .artist:hover{
 -webkit-transform: scale(1.04, 1.04);
 -moz-transform: scale(1.04, 1.04);
