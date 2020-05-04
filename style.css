@@ -68,6 +68,14 @@ span{
   padding-top:10px;
 }
 
+.projectTitle{
+  font-size: 1.85rem;
+}
+
+.projectDescription{
+  font-size: 1.2rem;
+}
+
 .yearlist{
   font-size: 1.3rem !important;
   padding-top: 5px;
