@@ -2,7 +2,7 @@ html, body{
 font-family: 'Roboto Mono', monospace;
 text-align:center;
 padding-top: 55px;
-font-size: 1.1rem;
+font-size: 1rem;
 scroll-behavior: smooth;
 }
 @media (max-width: 979px) {
@@ -11,11 +11,96 @@ scroll-behavior: smooth;
   }
 }
 
- @media(max-width:1128px){
-   .artistPage{
-     max-width:498px;
- }}
+@media (max-width: 990px) {
+  html, body, h5, h4, h2{
+    font-size: 1.5rem;
+  }
+span{
+  font-size: 1.3rem;
+}
+  h3, h4{
+    font-size:1.85rem;
+  }
+  .artistPage{
+    max-width:950px;
+    max-height: none;
+}
 
+#myBtn{
+  font-size: 1.5rem;
+}
+
+#contentSecondary{
+  background-color: #f8f9fa;
+}
+
+.logoBandcamp{
+  height: 59px !important;
+  width: 159px !important;
+}
+
+.logoSpotify{
+  height: 59px !important;
+  width: 59px !important;
+}
+
+.logoFacebook{
+  height: 59px !important;
+  width: 59px !important;
+}
+
+.btnmore{
+  background:lightgrey !important;
+}
+
+.btn{
+  font-size: 1.5rem;
+}
+  .row{
+    padding-bottom: 20px;
+  }
+
+.video{
+  width: 100%    !important;
+  height: 550px   !important;
+}
+.pastShows{
+  padding-top:10px;
+}
+
+.yearlist{
+  font-size: 1.3rem !important;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+  footer{
+    font-size: 1.2rem;
+  }
+}
+
+ @media(min-width:991px){
+   .artistPage{
+     width:498px;
+ }
+ .video{
+   width: 48vw;    !important;
+   height: 27vw;   !important;
+ }
+
+}
+
+@media(min-width:1140px){
+  .video{
+    width: 550px;    !important;
+    height: 300px;   !important;
+  }
+ }
+
+ @media(min-width:1129px){
+   .artistPage{
+     width:555px;
+ }}
 
 body#pastShows{
 padding-top: 80px;
