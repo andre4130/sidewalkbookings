@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/png" href="images/sidewalk_logo_invert.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -11,13 +10,13 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  <title>Sidewalk Bookings - Artists</title>
+  <title>Sidewalk Bookings - Next Shows</title>
 
 </head>
-<body>
+<body id="nextShows">
 
   <!-- beginning of the navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="z-index:5">
     <a class="navbar-brand" href="index.html">
       <img src="images/logo.png" width="auto" height="60px" alt="">
     </a>
@@ -26,79 +25,72 @@
     </button>
     <div class="collapse navbar-collapse mainNav" id="navbarSidewalk">
       <ul class="navbar-nav mr-auto mainNav">
-        <li class="nav-item active mr-3">
+        <li class="nav-item mr-4">
           <a class="nav-link" href="index.html">Artists<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4 active">
         <a class="nav-link" href="currentShows.html">Next Shows</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4 ">
         <a class="nav-link" href="pastShows.html">Past Shows</a>
       </li>
       <li class="nav-item mr-4">
         <a class="nav-link" href="projects.html">Projects</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4">
         <a class="nav-link" href="about.html">About</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-4">
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
+<!-- <header>
 
-<!-- end of navbar -->
 
-<header>
-  <!-- heather here -->
-</header>
-<div class="container" style="display: inline-flex;flex-wrap: wrap; max-width:1300px;">
-  <div class="col-lg-4">
-    <h4><a href="etranDeLair.html">Etran de L'Aïr</a></h4>
-    <div class="mt-3 mb-3">
-      <a href="etranDeLair.html"><img class="artist" src="images/etran300s.png" alt="Etran de L'Aïr"></a>
+</header> -->
+<a class="btn bg-light mb-3" onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</a>
+<div class="container-fluid pastShows">
+  <div class="col-md-12 col-sm-12" id="2020" style="padding-left:80px;margin-right:80px;">
+    <h1>2021</h1>
+    <div class="col-12 ml-3">
+      <h2 class="artist ml-2" href="spacelady.html">The Space Lady</h2>
+    </div>
+    <div class="col-12 ml-5">
+      <ul>
+        <li>08.07.2021 SK Trenčín - Pohoda Festival</li>
+      </ul>
     </div>
   </div>
-  <div class="col-lg-4">
-    <h4><a href="insolitoUniverso.html">Insólito UniVerso</a></h4>
-    <div class="mt-3 mb-3">
-      <a href="insolitoUniverso.html"><img class="artist" src="images/insolito300s.png" alt="Insolito Universo"></a>
-    </div>
-  </div>
-  <div class="col-lg-4" style="white-space: nowrap;">
-    <h4><a href="losSiquicosLitoraleños.html">Los Siquicos Litoraleños</a></h4>
-    <div class="mt-3 mb-3">
-      <a href="losSiquicosLitoraleños.html"><img class="artist" src="images/siquicos300s.png" alt="Los Siquicos Litoraleños"></a>
-    </div>
-  </div>
-  <!-- </div> -->
-  <!-- <div class="row mt-4" style="height:400px;width=100%"> -->
-  <div class="col-lg-4">
-    <h4><a href="theSpaceLady.html">The Space Lady</a></h4>
-    <div class="mt-3 mb-3">
-      <a href="theSpaceLady.html"><img class="artist" src="images/space300s.png" alt="The Space Lady"></a>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <h4><a href="umberto.html">Umberto</a></h4>
-    <div class="mt-3 mb-3">
-      <a href="umberto.html"><img class="artist" src="images/umberto300s.png" alt="Umberto"></a>
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-12">
-    <!-- empty div for next artist -->
-  </div>
-  <!-- </div> -->
 </div>
-
-<!-- main text here -->
-
-<footer>
-  <div class="container-fluid">
+<footer class="footerNext">
+  <div class="container-fluid footer">
     <hr>
-    Booking agency based in Barcelona / Contact: info@sidewalkbookings.com
+    Booking agency based in Barcelona / Contact: <a href="mailto:info@sidewalkbookings.com">info@sidewalkbookings.com</a>
   </div>
 </footer>
+
+<script type="text/javascript">
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
 </body>
 </html>
